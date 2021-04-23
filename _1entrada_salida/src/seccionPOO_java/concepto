@@ -1,0 +1,44 @@
+************************************************************
+perro--creaciones--atributos
+auto----metodos
+alumno--modificador de acceso private y public y final
+fecha--metodo geter y seters
+herencia--herencia unica--multinivel y jerarquica
+persona***this--objeto actual de u metodo o de un constructor
+animal***super---se usa super para superclase que remplza de subclase
+***para accederatributos de superclase si tanto de la superclase como subclasetiene atributos con el mismo nombre
+encapsulacion-vs encapsulamiento-----principio de envolver datos(variables)-y codificar juntoscomo una sola unidad
+cuando usar encapsulaiento-declarar variable como clase privadametodo seter y geters
+oculatar miembros mehorar la seguridad los iembros de una clase pueden ser solo lectura o solo esscritura
+una clasepuede tener control sobre lo que esta almacenadoen sus campos
+encapsulacion---de como lograr una funcionalidad
+clases anidadas---agrupar clases que pertenecen ujntas lo que hace su codigo mas legible y facil de mantener
+clase abstracta---
+polimosrfismo---muchas formas
+abstraccion---ocultar ciertos detalles y solo mostrar cierta nformacion al usuario
+
+
+************************************************************
+atributo se instancia de otra clase se imprime
+de clase padre a clase hijo
+
+metodo
+se escribe como funciones dentro de los metodos podemos acceder a los atributos
+de na clase como si fuesevariable globales
+
+metodo constructor mismo nombre que la clase se utiliza para normalizar los atributos
+metodo construcor
+perro = new perro();
+
+instanciar un objeto es: deriva de algn lado
+
+public
+private
+
+static --se puede accedersin crear un objeto de la clase
+final--es tiene la capacidad de declarar los atributos como fianl
+es un dato definido que no va a cambiar
+****************************************************************************************
+los metodos geters y seters se pueden acceder desde estod accedos metodos
+geters para obtener datos
+seters para asignar datos

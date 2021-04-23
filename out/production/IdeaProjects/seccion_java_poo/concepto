@@ -1,0 +1,138 @@
+se componen de 4 elementos
+**************************
+        clase
+        propiedades
+        metodos
+        objetos
+***************************
+tiene los siguientes pilares
+    encapsulamiento
+    abstraccion
+    herencia
+    polimorfismo
+objetos fisicos o conceptuales
+fisicos-carro llanata perro
+conceptual-sesion del usuario
+pripiedades son los atributos-atributo de un carro es nombre tamaño forma estado
+comportamientos son las operaciones que el objjeto pueda hacer acciones funcionalidades
+******************************
+        que es una clase
+es el modelo sobre el cual se construira nuestro objeto
+me permite generar mas objetos
+    abstraccion
+ analizar un objeto para abstraer su composicion
+reutilizacion del codigo no copiar y pegar
+****************************************************************
+        UML
+nombre_clase----identidad-----------------persona
+
+atributo1-------estado--------------------nombre
+atributo2
+atributo3
+
+operacion1------comportamiento------------caminar
+operacion2
+operacion3
+
+*******************************************************************
+        Modularidad orientado a objetos
+viene del diseño ala construccion
+reutiliza
+evita colapso
+mantenible
+legibilidad
+resolucion rapida de problemas
+************************************************************************************************************************
+    DECLARANDO UN OBJETO
+    DOCTOR  myDOCTOR  = new DOCTOR  ()  ;
+tipo de objeto           nombre del objeto
+*****
+para imprimir el nombre lo llama desde doctor hasta main le colocamos los ombres para que imprima en main
+************************************************************************************************************
+el metodo constructor
+crea nuevas instancias de una clase
+..tiene el mismo nombre de la clase que inicializa
+..usa la palabra new para invocarlo
+**********************************************************
+el nombre del doctor name es Doctor y creamos un comportamiento
+ de doctor a main para imprimir el nombre del doctor
+ *****************
+ le agregamos el id el metodo doctor id se autoincrementa
+
+ son los metodos staticos que ya estan llevando a imprimir en citas y pacientes
+
+ *******************************************************************
+ memoria heap son datos id nombre etc.
+ stack es para direccion donde compone el ojeto desde datos solo imprime guardando
+ *********************************************************************************
+        MODIFICADOR DE ACCESO
+ public
+ protected
+ default
+ private
+ *****************************************************
+geter --obtienedatos de la vsriable
+set-----asigna o cambia la variable
+**************************************
+variables y objetos
+clases anidadas
+exterior
+interior
+
+Don't repeat yourself
+
+*********************************************************************************
+vemos si esta repetido algo entre las clases
+creamos la clase usera para abstraer a los atributos de las clases en general lo que se repite
+aplicamos la herencia extends user y lo heredan son hijo lo que es Doctor y Patient
+**********************************************
+super------indica que una variable o un metodoes de la clase padre superclas
+this-------especifica que la variableque señala es this.nombre es de la misma clase que se usa
+**********************************************
+polimorfismo sobreescritura
+*************************
+interfaces
+forma de una clase no bloques de codigo
+****************************************
+creamos l ainterface java clas interface
+abstraccion
+***********************
+clases anonimas
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+        cuando puedo utilizar una clase abstracta y cuando utilizar una interfaz
+clase abstracta
+comportamineto
+metodos
+--define subclases
+reutiliza los metodos de la clase padre
+no puede usar instancias            no puede crear objetos
+
+definir nuevas clases sin crear nuevos objetos
+objetos------------
+video
+serie
+pelicula
+
+
+interfaces
+modificadores de acceso
+defaulr         private
+comportamiento
+metodos
+acciones------------
+publicacion
+libros
+ñññññpara interfaces
+drawable
+runnable
+visualizable
+callable
+
+******************++
+abstracto
+siempre este orientado a intefaces y no a implementacion
++crear buena abstracion
+comportamiento comun
+declaracion de metodos
+*********************************
+interfaces metodos abstractos
